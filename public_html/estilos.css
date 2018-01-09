@@ -1,0 +1,96 @@
+body {
+    font-family: verdana;
+    background-color:#ffcc99;
+    background-image: url(img/fundo.png);
+    background-repeat: repeat;
+}
+
+#wrap {
+    background-color:#ff9933;
+    padding:20px;    
+    width: 820px;
+    margin: 0 auto;
+    border: 3px solid black;
+}
+
+#header {
+    background-color:#ffcc99;
+    color:black;
+    text-align:center;
+    width: 796px;
+    padding:10px;
+    border: 2px solid black;
+}
+#nav {
+    line-height:30px;
+    background-color:#ff6666;
+    height:30px;
+    width: 800px;
+    text-align:center;
+    padding:10px;
+    background-color:black;
+    color:white;
+    font-size: 18px;
+}
+#section {
+    background-color:white;
+    text-align:justify;
+    width: 796px;
+    padding:10px;
+    border: 2px solid black;
+}
+
+#footer {
+    background-color:black;
+    font-size: 11px;
+    color:white;
+    clear:both;
+    text-align:center;
+    width: 796px;
+    padding:10px;
+    border: 2px solid black;    
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+a:active {
+    color: white;
+    text-decoration: underline;
+}
+
+h3 {
+    color: #cc6600;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+#coluna1 {
+    width: 170px;
+}
+
+.form {
+    display: block;
+    float: left;
+    width: 130px;
+}
+
+textarea {
+    resize: none;
+}
